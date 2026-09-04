@@ -14,6 +14,7 @@ We build Windows apps, tools, browser games, and open-source projects.
 - [Y-TEC Forge](https://ytec.cloudfree.jp/forge/) — 作品紹介、更新情報、制作の背景
 - [Projects](https://ytec.cloudfree.jp/forge/projects/) — アプリ、ツール、ゲーム、OSS
 - [Open Source](https://ytec.cloudfree.jp/forge/open-source/) — 公開中のソースコード
+- [X / @ytec_kun](https://x.com/ytec_kun) — 制作・更新のお知らせ / News and updates
 
 ## What we value
 
