@@ -1,0 +1,112 @@
+﻿{
+    "SchemaVersion":  "1.1",
+    "Verdict":  "APPROVED_FOR_PUBLIC_PUSH",
+    "SourceHistoryMode":  "CLEAN_SNAPSHOT_ONLY",
+    "OldPublicHistoryImported":  false,
+    "HistoryGuard":  "CLEAN_SNAPSHOT_NO_OLD_PUBLIC_HISTORY",
+    "HistoryPolicy":  {
+                          "Mode":  "INITIAL_ROOT_ONLY",
+                          "ApprovedPublicBaseCommit":  null
+                      },
+    "Source":  {
+                   "SourceHead":  "fce49c6cddd4abc774dbc11b65b21d759bff35c4",
+                   "SourceTree":  "1e53d328674bc804180437e636fa1b72da3ac597",
+                   "TargetRepository":  "ytec-forge-commits/.github"
+               },
+    "Export":  {
+                   "ExportTreeHash":  "6a0e59404f561da9b8da8a9cb28b3211b9c7445ac1ab01b35762119132307ad8",
+                   "Files":  [
+                                 {
+                                     "Path":  "profile/README.md",
+                                     "Size":  1458,
+                                     "Sha256":  "485bb1657df32dc27f221daa214ca5fcc827303a346611a1ccd8d3d68d49fb35"
+                                 },
+                                 {
+                                     "Path":  "README.md",
+                                     "Size":  95,
+                                     "Sha256":  "72571f0e301454632259f12914d471ff0d4d75ad19499c9a14aca63259ecb6c5"
+                                 }
+                             ]
+               },
+    "Transform":  {
+                      "Mode":  "EXACT_SOURCE",
+                      "PlanSha256":  null,
+                      "ValidationSha256":  null,
+                      "Files":  [
+
+                                ]
+                  },
+    "ScannerConfiguration":  {
+                                 "ExactFingerprint":  "sha256-fingerprints",
+                                 "ProviderSecret":  "gitleaks-dir",
+                                 "SecondSecret":  "trufflehog-filesystem",
+                                 "PathAndFilename":  "custom-rules"
+                             },
+    "ScannerToolchain":  {
+                             "Mode":  "PINNED_RELEASES",
+                             "Gitleaks":  {
+                                              "Version":  "8.30.1",
+                                              "Sha256":  "17157e2ee8b76fc8b1d8bee607a250e34b8a8023c8bc81822d4b5ee4d78fcb7c"
+                                          },
+                             "TruffleHog":  {
+                                                "Version":  "3.97.9",
+                                                "Sha256":  "a1825a8b0feb00a0a3a2b1fed765fdde4d0d65c9e775adb91ff5be15170ec5db"
+                                            }
+                         },
+    "ScannerEvidenceId":  "ytec-public-safety-f04baa3152e24179ac40de74b61aa177",
+    "ScannerResults":  {
+                           "ExactFingerprint":  "PASS",
+                           "ProviderSecret":  "PASS",
+                           "SecondSecret":  "PASS",
+                           "PathAndFilename":  "PASS"
+                       },
+    "InspectionCoverage":  {
+                               "CommitMessages":  "PASS",
+                               "Filenames":  "PASS",
+                               "Binary":  "NOT_APPLICABLE",
+                               "Archives":  "NOT_APPLICABLE",
+                               "ImageMetadata":  "NOT_APPLICABLE",
+                               "DocumentMetadata":  "NOT_APPLICABLE"
+                           },
+    "ReviewEvidence":  {
+                           "license":  {
+                                           "Status":  "PASS",
+                                           "EvidenceProvided":  true
+                                       },
+                           "media":  {
+                                         "Status":  "PASS",
+                                         "EvidenceProvided":  true
+                                     },
+                           "workflow":  {
+                                            "Status":  "PASS",
+                                            "EvidenceProvided":  true
+                                        },
+                           "release":  {
+                                           "Status":  "PASS",
+                                           "EvidenceProvided":  true
+                                       },
+                           "archive":  {
+                                           "Status":  "PASS",
+                                           "EvidenceProvided":  true
+                                       },
+                           "binary":  {
+                                          "Status":  "PASS",
+                                          "EvidenceProvided":  true
+                                      },
+                           "imageMetadata":  {
+                                                 "Status":  "PASS",
+                                                 "EvidenceProvided":  true
+                                             },
+                           "documentMetadata":  {
+                                                    "Status":  "PASS",
+                                                    "EvidenceProvided":  true
+                                                }
+                       },
+    "Findings":  [
+
+                 ],
+    "ForbiddenHistoryCommitIds":  [
+
+                                  ],
+    "PreparedAtUtc":  "2026-09-27T10:08:57.0754395Z"
+}
